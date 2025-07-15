@@ -1,3 +1,93 @@
+/* Flex layout for V/S between images */
+.vs-flex {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+}
+.vs-label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 8px;
+  color: #333;
+}
+section{
+  background-color: #431b77;
+}
+.dongle-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 24px;
+  align-items: start;
+}sfbdfbdfbv
+.dongle_img img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+header {
+  background-color: #689464;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+header h1 {
+  text-align: left;
+  margin-left: 0;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 32px 0;
+}
+
+.card {
+  background: #2959a086;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 24px;
+  transition: box-shadow 0.2s;
+}
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#top {
+  display: flex;
+  gap: 10px;
+}
+#top a:hover{
+  background-color: rgb(95, 141, 141);
+  height: 40px;
+  width: 40px;
+  margin: 3px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul a :hover {
+  color: #979c51;
+}
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -6,10 +96,22 @@ body {
 }
 
 header, footer {
-  background-color: #333;
+  background-color: #689464;
   color: white;
   padding: 10px;
   text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+nav ul li{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 50px;
+}
+nav ul a{
+  margin-right: 50px;
+  
 }
 
 section {
@@ -20,4 +122,9 @@ section {
 
 h2 {
   color: #0077cc;
+}
+#Collaboration_grid{
+  background-image: url('media/secure.jpg');
+  background-size: cover;
+  
 }

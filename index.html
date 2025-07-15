@@ -6,42 +6,170 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
   <header>
+     <nav>
+      <ul>
+        <a href="#usb-dongles">Wi-Fi USB Dongles</a>
+        <a href="#Collaboration_internet">Secure Collaboration</a>
+        <a href="#networking-and-servers">Networking Types</a>
+        <a href="#server-networks">Server Networks</a>
+      </ul>
+      <div id="top">
+        <a href=""><img src="media/icon-facebook.svg" alt="" ></a>
+        <a href=""><img src="media/icon-instagram.svg" alt=""></a>
+        <a href=""><img src="media/icon-twitter.svg" alt=""></a>
+      </div>     
+    </nav>
     <h1>Understanding Networking and Server Systems</h1>
   </header>
 
   <section>
-    <article>
-      <h2>Wi-Fi USB Dongles</h2>
-      <p>A Wi-Fi USB dongle is a small device that plugs into a computer's USB port to provide wireless network connectivity...</p>
-    </article>
+    <div class="card-grid">
+      <article class="card" id="usb-dongles">
+        <h2>Wi-Fi USB Dongles</h2>
+        <div class="dongle-grid">
+          <div class="dongle_img">
+            <img src="media/dongle2.jpeg" alt="" height="200px">
+            <img src="media/wi-fi-usb-dongle.webp" alt="" height="200px">
+          </div>
+          <div class="dongle_text">
+            <p>A Wi-Fi USB dongle is a small device that plugs into a computer's USB port to provide wireless network connectivity</p>
+            <p>
+              3G routers allow to connect USB dongle to the router just like how we connect cable connection to router. User can into connect USB dongle as internet connection to the router and use the internet over Wi-Fi on multiple devices.
+            </p>
+            <p>
+              "Not every USB router compatible with USB dongle internet connection."
+            </p>
+            <p>
+              If you are planning to buy a router to use with USB dongle and cable internet connection, please look for terms like 3G router, USB dongle in product specification. Normally USB port in the router is designed for connecting external hard disk or printer. In this type USB port USB dongle won't work. So be careful while purchase router in which you want connect 3G USB dongle. Look for "dongle" or "USB dongle" phrase in product specification or product reviews.
+            </p>
+          </div>
+        </div>
+        
+        
+      </article>
 
-    <article>
-      <h2>Secure Collaboration Across the Internet</h2>
-      <p>Collaborating online requires tools and protocols that protect user data...</p>
-    </article>
+      <article class="card" id="Collaboration_internet">
+        <h2>Secure Collaboration Across the Internet</h2>
+        <div class="#Collaboration_grid">
+            <div id="Collaboration_img">
+              <img src="media/secure.jpg" alt="" height="230px">
+              <img src="media/secure2.webp" alt="" height="230px">
 
-    <article>
-      <h2>Types of Networking and Wireless Connections</h2>
-      <p>Networks can be wired or wireless and include types such as LAN, WAN, and hotspots...</p>
-    </article>
+            </div>
+            <div class="Collaboration_text">
+              <p>
+                Network collaboration refers to working together with others over a shared network, often using internet-connected tools. <br> <b> It allows people in different locations to:</b>
+              </p>
+              <ul class="collab-list">
+                <li>Share files and documents</li>
+                <li>Edit and view the same content in real-time</li>
+                <li>Communicate via messaging, voice, or video</li>
+                <li>Work on group projects simultaneously</li>
+              </ul>
 
-    <article>
-      <h2>Common Functionality of Server Networks</h2>
-      <p>Servers manage resources and data across networks. They perform tasks like hosting websites, storing files...</p>
-    </article>
+            </div>
+        </div>
+        <p>Collaborating online requires tools and protocols that protect user data...</p>
+      </article>
+
+      <article class="card" id="networking-and-servers">
+        <h2>Types of Networking and Wireless Connections</h2>
+        <div id="networking_grid">
+          <div id="networking_img">
+            <div class="vs-flex">
+              <img src="media/WAN.webp" alt="" height="230px">
+              <span class="vs-label"><b>V/S</b></span>
+              <img src="media/LAN.webp" alt="" height="230px">
+            </div>
+          </div>
+          <div id="networking_text">
+            <p>
+              Networking refers to connecting computers and devices to share resources and communicate. It can be wired or wireless, using various technologies like Ethernet, Wi-Fi, and Bluetooth.
+            </p>
+            <p>
+              Common types of networks include:
+            </p>
+            <ul>
+              <li>LAN (Local Area Network)</li>
+              <li>WAN (Wide Area Network)</li>
+              <li>Hotspots</li>
+            </ul>
+            <p>
+              Wireless networking allows devices to connect without physical cables. Instead, data is transmitted using radio waves or infrared.
+            </p>
+            <p>
+              Wireless networks are vulnerable to unauthorized access if not secured. Common security protocols:
+            </p>
+            <ul class="security-list">
+              <li>WEP (outdated)</li>
+              <li>WPA / WPA2 / WPA3 (modern, more secure)</li>
+            </ul>
+            <p>Best practices:</p>
+            <ul class="security-list">
+              <li>Use strong passwords</li>
+              <li>Enable WPA3 encryption if possible</li>
+              <li>Keep firmware up to date</li>
+            </ul>
+          </div>
+        </div>
+        
+        <p>Networks can be wired or wireless and include types such as LAN, WAN, and hotspots...</p>
+      </article>
+
+      <article class="card" id="server-networks">
+        <h2>Common Functionality of Server Networks</h2>
+        <div class="server-grid">
+          <div class="server_img">
+            <img src="media/server1.webp" alt="" height="230px">
+            <img src="media/server2.webp" alt="" height="230px">
+          </div>
+          <div class="server_text">
+            <p>Servers manage resources and data across networks. They perform tasks like hosting websites, storing files, and running applications.</p>
+            <p>Common server types include:</p>
+            <p>1. File Sharing & Storage</p>
+            <ul>
+              <li>Servers store and manage files for multiple users.</li>
+              <li>Allows centralized access, backups, and permissions.</li>
+              <li>Example: File Server</li>
+            </ul>
+            <p>2. Print Services</p>
+            <ul>
+              <li>Manages shared printers across the network.</li>
+              <li>Users can send print jobs from any connected device.</li>
+              <li>Example: Print Server</li>
+            </ul>
+            <p>3. User Authentication & Authorization</p>
+            <ul>
+              <li>Controls who can access the network and what they can do.</li>
+              <li>Uses Active Directory or similar systems.</li>
+              <li>Example: Domain Controller</li>
+            </ul>
+            <p>4. Web Hosting</p>
+            <ul>
+              <li>Hosts websites and web applications.</li>
+              <li>Provides services over HTTP/HTTPS.</li>
+              <li>Example: Web Server (Apache, Nginx, IIS)</li>
+            </ul>
+
+          </div>
+        </div>
+       
+      </article>
+    </div>
   </section>
 
   <section>
     <h2>Audio Version</h2>
     <audio controls>
-      <source src="\\<Your-PC-Name>\SharedFolder\networks-and-servers.mp3" type="audio/mpeg">
+      <source src="/media/audio.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
   </section>
 
   <footer>
-    <p>Created by [Your Name] — 2025</p>
+    <p>&copy Vincent— 2025</p>
   </footer>
 </body>
 </html>
