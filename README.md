@@ -40,7 +40,7 @@ An <audio> HTML element provides an embedded audio version of the webpage conten
 Basic footer with copyright
 
 # Network Collaboration and Hosting
-- Deployed Webside address: https://project7-ruh7.vercel.app/
+- Deployed Webside address: https://project7-4jgq.vercel.app/
 - Liveserve address: http://192.168.0.124:5500/index.html
 
 
